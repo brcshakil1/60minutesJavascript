@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container .dob_name {
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+.container .desc {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .age {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#years, #months, #days {
+    font-weight: bold;
+}
+
+.container #error {
+    display: none;
+    font-size: 3rem;
+    text-align: center;
+}
