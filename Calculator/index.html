@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <p data-calc class="calc"></p>
+            <p data-result class="result"></p>
+        </div>
+        <div class="btn-controls">
+            <div class="btn-row">
+                <button data-operation="all-clear" class="btn-green clear btn">AC</button>
+                <button data-operation="percentage" class="btn-green btn">%</button>
+                <button data-operation="divide" class="btn-red btn">/</button>
+            </div>
+            <div class="btn-row">
+                <button data-number class="btn">7</button>
+                <button data-number class="btn">8</button>
+                <button data-number class="btn">9</button>
+                <button data-operation="multiply" class="btn-red btn">*</button>
+            </div>
+            <div class="btn-row">
+                <button data-number class="btn">4</button>
+                <button data-number class="btn">5</button>
+                <button data-number class="btn">6</button>
+                <button data-operation="minus" class="btn-red btn">-</button>
+            </div>
+            <div class="btn-row">
+                <button data-number class="btn">1</button>
+                <button data-number class="btn">2</button>
+                <button data-number class="btn">3</button>
+                <button data-operation="plus" class="btn-red btn">+</button>
+            </div>
+            <div class="btn-row">
+                <button data-operation="back" class="btn">←</button>
+                <button data-number class="btn">0</button>
+                <button data-number class="btn">.</button>
+                <button data-operation="equal" class="btn-red btn">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
