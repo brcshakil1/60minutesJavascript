@@ -10,7 +10,7 @@ buttons.forEach(btn => {
                 display.innerText = '';
                 break;
             case '←':
-                display.innerText = display.slice(0, -1);
+                display.innerText = display.innerText.slice(0, -1)
                 break;
             case '%':
                 display.innerText = eval(display.innerText) / 100;
